@@ -1,0 +1,22 @@
+.one{
+    color:red;
+    background-color: greenyellow;
+    margin-top: 200px;
+    border-radius:40px;
+    width: 500px;
+    height:300px;
+}
+.footer{
+    color:blueviolet;
+    font-size:xx-large;
+
+}
+.header{
+    color:white;
+    display:flex;
+    flex-direction: ROW;
+    justify-content:CENTER;
+    background-color: black;
+    width:200px;
+    margin-left:650px;
+}

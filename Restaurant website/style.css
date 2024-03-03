@@ -1,0 +1,124 @@
+:root{
+    --yellow:#FFC54D;
+    --green:#53BF9D;
+    --red:crimson;
+    --white:whitesmoke;
+}
+
+body,h2{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('spice.jpg.jpg');
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    color:var(--white);
+}
+
+header a{
+    text-decoration: none;
+    color:var(--yellow);
+    
+}
+header{
+    display:flex;
+    padding:1em;
+}
+
+#logo{
+    flex:3;
+    font-size:1.25em;
+}
+nav{
+    flex:1;
+    display:flex;
+}
+nav a{
+      flex:1;
+}
+nav a:hover{
+    color:var(--green);
+}
+
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: center;
+    
+
+}
+.tagline1{
+    color:var(--red);
+    font-size:2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:var(--yellow);
+
+}
+.maintext div{
+    margin-top:7em;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background:linear-gradient(to right,rgb(128, 127, 127),rgb(46, 46, 46));
+    color:var(--white);
+}
+
+#menuheading,#locheading{
+    background:linear-gradient(to right,rgb(128, 127, 127),rgb(46, 46, 46));
+    font-size:2.5em;
+    color:var(--red);
+    display: flex;
+    justify-content: center;
+    
+}
+.menu th{
+    color:var(--green);
+    font-size:1.8em;
+}
+table{
+    width:100%;
+    padding:1em;
+}
+.menu tr{
+    display:flex;
+    justify-content: center;
+    margin-top:.8em;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self:left;
+}
+
+.menu td:nth-child(2){
+    justify-self:right;
+}
+
+.location{
+    background:linear-gradient(to right,rgb(128, 127, 127),rgb(46, 46, 46));
+     color:var(--white);
+     display:flex;
+     flex-wrap:wrap;
+}
+
+.location h2{
+    color:var(--green);
+    margin-bottom: .8em;
+    
+}
+.location div{
+    flex:1;
+    padding: 1em;
+}
+
+.footer{
+    background-color: rgb(57, 54, 54);
+    color:var(--white);
+    padding:.25em 1em;
+}
